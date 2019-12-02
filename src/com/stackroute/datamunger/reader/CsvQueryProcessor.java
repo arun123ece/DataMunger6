@@ -37,7 +37,7 @@ public class CsvQueryProcessor implements QueryProcessingEngine {
 		 */
 		
 		
-		String fileName = queryParameter.getFile();
+		String fileName = queryParameter.getFileName();
 		Header headerClass = new Header();
 		RowDataTypeDefinitions rowDataType = new RowDataTypeDefinitions();
 		FileReader file;

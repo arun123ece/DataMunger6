@@ -39,7 +39,7 @@ public class CsvAggregateQueryProcessor implements QueryProcessingEngine {
 		 * QueryParameter. Consider Handling Exception related to file reading.
 		 */
 
-		String fileName = queryParameter.getFile();
+		String fileName = queryParameter.getFileName();
 		Header headerClass = new Header();
 		RowDataTypeDefinitions rowDataType = new RowDataTypeDefinitions();
 		FileReader file;

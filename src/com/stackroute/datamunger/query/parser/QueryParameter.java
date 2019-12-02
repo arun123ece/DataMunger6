@@ -10,7 +10,7 @@ import java.util.List;
 public class QueryParameter {
 
 	private String queryString;
-	private String file;
+	private String fileName;
 	private String baseQuery;
 	private List<Restriction> restrictions;
 	private List<String> fields;
@@ -28,7 +28,7 @@ public class QueryParameter {
 			List<AggregateFunction> aggregateFunctions, List<String> orderByFields, List<String> groupByFields) {
 		super();
 		this.queryString = queryString;
-		this.file = file;
+		this.fileName = file;
 		this.baseQuery = baseQuery;
 		this.restrictions = restrictions;
 		this.fields = fields;
@@ -45,11 +45,11 @@ public class QueryParameter {
 	public void setQueryString(String queryString) {
 		this.queryString = queryString;
 	}
-	public String getFile() {
-		return file;
+	public String getFileName() {
+		return fileName;
 	}
-	public void setFile(String file) {
-		this.file = file;
+	public void setFileName(String file) {
+		this.fileName = file;
 	}
 	public String getBaseQuery() {
 		return baseQuery;

@@ -142,7 +142,7 @@ public class QueryParser {
 			orderByFields.add(order);
 		}
 		}
-		queryParameter.setFile(file);
+		queryParameter.setFileName(file);
 		if(restrictions.size()!=0) {
 			queryParameter.setRestrictions(restrictions);
 		}
